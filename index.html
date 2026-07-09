@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Justin Alexander | Desarrollador Web</title>
+<style>
+:root{
+--bg-dark:#090d16;--bg-card:#131c2e;--text-main:#f8fafc;--text-muted:#94a3b8;
+--accent-cyan:#38bdf8;--accent-purple:#818cf8;--border-glow:rgba(56,189,248,.1);}
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',system-ui,sans-serif}
+body{background:var(--bg-dark);color:var(--text-main);line-height:1.6;padding:40px 20px;display:flex;justify-content:center}
+.portfolio-container{max-width:800px;width:100%}
+header{text-align:center;margin-bottom:50px}
+.profile-img{width:90px;height:90px;border-radius:50%;background:linear-gradient(135deg,var(--accent-cyan),var(--accent-purple));margin:0 auto 15px;display:flex;justify-content:center;align-items:center;font-size:1.8rem;font-weight:bold;color:#090d16;box-shadow:0 0 20px rgba(56,189,248,.3)}
+header h1{font-size:2.2rem;margin-bottom:5px}
+header p{color:var(--text-muted);font-size:1.1rem;max-width:650px;margin:10px auto 0}
+.contact-buttons{display:flex;justify-content:center;gap:15px;flex-wrap:wrap;margin-top:25px}
+.contact-btn{text-decoration:none;color:#fff;background:linear-gradient(135deg,var(--accent-cyan),var(--accent-purple));padding:12px 22px;border-radius:10px;font-weight:600;transition:.3s}
+.contact-btn:hover{transform:translateY(-3px)}
+.section-title{font-size:1.4rem;margin:35px 0 25px;color:var(--accent-cyan)}
+.projects-grid{display:flex;flex-direction:column;gap:20px}
+.project-card{display:block;text-decoration:none;color:inherit;background:var(--bg-card);padding:25px;border-radius:16px;border:1px solid rgba(255,255,255,.03);transition:.3s}
+.project-card:hover{transform:translateY(-4px);background:#172237}
+.project-card h3{display:flex;justify-content:space-between}
+.project-card h3:after{content:":)";color:var(--accent-cyan)}
+.project-card p{color:var(--text-muted);margin:10px 0 15px}
+.tech-stack{display:flex;gap:8px;flex-wrap:wrap}
+.tech-badge{background:rgba(255,255,255,.05);padding:4px 10px;border-radius:6px;font-family:monospace}
+.despedida-container{text-align:center;padding:40px 20px;background:var(--bg-card);border-radius:16px;margin-top:50px}
+.despedida-container h2{color:var(--accent-cyan);margin-bottom:10px}
+.despedida-container p{color:var(--text-muted)}
+</style>
+</head>
+<body>
+<div class="portfolio-container">
+<header>
+<div class="profile-img">JA</div>
+<h1>Justin Alexander</h1>
+<p>Desarrollador Web Junior apasionado por crear sitios web modernos, rapidos y funcionales. Me especializo en HTML, CSS y JavaScript para desarrollar paginas web para negocios, proyectos academicos y emprendimientos. Domino el ingles y tengo conocimientos basicos de portugues.</p>
+<div class="contact-buttons">
+<a href="mailto:justinorrala705@gmail.com?subject=Quiero%20una%20pagina%20web" class="contact-btn">Correo
+</a>
+<a href="https://github.com/JAlexandr9" class="contact-btn" target="_blank">GitHub
+</a>
+<a href="https://www.linkedin.com/in/justin-orrala-39a042421?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="contact-btn" target="_blank">LinkedIn
+</a>
+<a href="https://wa.me/593981361006" class="contact-btn" target="_blank">WhatsApp
+</a>
+</div>
+</header>
+<main>
+<h2 class="section-title">Proyectos Destacados</h2>
+<div class="projects-grid">
+<a href="https://flexxerxd07.wixsite.com/my-site-8" class="project-card"><h3>01. Sitio web informativo sobre musica</h3><p>Sitio web desarrollado para presentar contenido musical.</p><div class="tech-stack"><span class="tech-badge">Wix</span><span class="tech-badge">HTML/CSS</span></div></a>
+<a href="https://johnandrestf.wixsite.com/jonblog" class="project-card"><h3>02. Blog educativo sobre animales</h3><p>Blog con informacion e imagenes sobre distintas especies.</p><div class="tech-stack"><span class="tech-badge">Wix</span></div></a>
+<a href="https://linonaomi26-bit.github.io/Tesis/" class="project-card"><h3>03. Sitio web para proyecto de tesis universitaria</h3><p>Pagina desarrollada para apoyar una investigacion.</p><div class="tech-stack"><span class="tech-badge">HTML</span><span class="tech-badge">CSS</span><span class="tech-badge">JS</span></div></a>
+<a href="https://alguienexample700-ai.github.io/examen/" class="project-card"><h3>04. Proyecto de evaluacion tecnica</h3><p>Evaluacion realizada durante mis practicas empresariales con maxima calificacion.</p><div class="tech-stack"><span class="tech-badge">GitHub</span><span class="tech-badge">Git</span></div></a>
+<a href="https://justinorrala705.wixsite.com/justinblogafa" class="project-card"><h3>05. Blog informativo desarrollado en Wix</h3><p>Sitio web con contenido informativo.</p><div class="tech-stack"><span class="tech-badge">Wix</span></div></a>
+</div>
+</main>
+<div class="despedida-container">
+<h2>¿Trabajamos juntos?</h2>
+<p>Gracias por visitar mi portafolio. Si buscas un desarrollador para crear una pagina web moderna o colaborar en un proyecto, estaría encantado de conversar contigo.</p>
+</div>
+</div>
+</body>
+</html>
